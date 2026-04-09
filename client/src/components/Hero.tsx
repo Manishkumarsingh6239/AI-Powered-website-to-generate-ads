@@ -10,12 +10,13 @@ export default function Hero() {
         'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop'
     ];
 
-    const mainImageUrl = 'https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=1600&auto=format&fit=crop';
+    const mainImageUrl = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop';
 
     const galleryStripImages = [
-        'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=100',
-        'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=100',
-        'https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=100',
+        'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=80&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=80&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=80&auto=format&fit=crop',
+
     ];
 
     const trustedLogosText = [
@@ -87,14 +88,14 @@ export default function Hero() {
                             >
                                 <a href="/" className="w-full sm:w-auto">
                                     <PrimaryButton className="max-sm:w-full py-3 px-7">
-                                        Start your project
+                                        Start Generating it's- free
                                         <ArrowRightIcon className="size-4" />
                                     </PrimaryButton>
                                 </a>
 
                                 <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
                                     <PlayIcon className="size-4" />
-                                    View our work
+                                    Watch demo
                                 </GhostButton>
                             </motion.div>
 
@@ -107,9 +108,9 @@ export default function Hero() {
                                 <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
                                     <ZapIcon className="size-4 text-sky-500" />
                                     <div>
-                                        <div>Strategy-led execution</div>
+                                        <div>Seconds to create</div>
                                         <div className="text-xs text-gray-400">
-                                            Focused on growth & results
+                                            Optimised Social Formats
                                         </div>
                                     </div>
                                 </div>
@@ -119,9 +120,9 @@ export default function Hero() {
                                 <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
                                     <CheckIcon className="size-4 text-cyan-500" />
                                     <div>
-                                        <div>Full-service delivery</div>
+                                        <div>Commercial Rights</div>
                                         <div className="text-xs text-gray-400">
-                                            Design, dev & marketing
+                                            Use Anyehere - No Fuss
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +145,7 @@ export default function Hero() {
                                     />
 
                                     <div className="absolute left-4 top-4 px-3 py-1 rounded-full bg-black/15 backdrop-blur-sm text-xs">
-                                        Branding • Web • Growth
+                                        Social Ready • 16:9 & 9:16
                                     </div>
 
                                     <div className="absolute right-4 bottom-4">
@@ -184,7 +185,7 @@ export default function Hero() {
 
                                         <span className="relative inline-flex size-2 rounded-full bg-green-600" />
                                     </div>
-                                    20+ completed projects
+                                    20+ more
                                 </motion.div>
                             </div>
                         </motion.div>
